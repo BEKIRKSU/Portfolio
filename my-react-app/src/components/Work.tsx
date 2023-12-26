@@ -12,6 +12,7 @@ const Work: React.FC = () => {
       <p className="work-paragraph">Projects Galore: Explore a collection of my noteworthy coding projects that showcase my expertise and dedication.
       <h3>Tech Stack Showcase:</h3>
       <p className="work-paragraph"> Discover the tools I use to create my work, and the technologies I love to work with.
+      <h4> Explore my GitHub below for a closer look at my projects and contributions.</h4>
       </p>
       </p>
       </p>
