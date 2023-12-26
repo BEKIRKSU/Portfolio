@@ -1,10 +1,11 @@
 
 import React from 'react';
+import './Resume.css';
 
 const Resume: React.FC = () => {
   return (
-    <div>
-      <h2>My Resume</h2>
+    <div className="resume-container">
+      <h2 className="resume-heading">My Resume</h2>
       {/* Content */}
     </div>
   );

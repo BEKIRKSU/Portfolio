@@ -1,0 +1,17 @@
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .resume-heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  
+  .resume-paragraph {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
