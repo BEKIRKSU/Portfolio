@@ -1,0 +1,26 @@
+
+.work-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .work-heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+
+  .work-paragraph {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+
+  .github-image {
+    width: 100px; 
+    height: auto;
+    margin-top: 20px;
+  }
+  
