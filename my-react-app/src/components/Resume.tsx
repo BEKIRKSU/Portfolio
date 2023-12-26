@@ -4,7 +4,7 @@ import React from 'react';
 const Resume: React.FC = () => {
   return (
     <div>
-      <h2>Your Resume Content Goes Here</h2>
+      <h2>My Resume</h2>
       {/* Content */}
     </div>
   );
