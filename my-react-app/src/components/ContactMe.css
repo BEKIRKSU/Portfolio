@@ -1,22 +1,21 @@
 
 
-
-.home-container {
+.contact-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
   }
   
-
-  .home-heading {
+  .contact-heading {
     font-size: 2rem;
     color: #333;
   }
   
- 
-  .home-paragraph {
+  .contact-paragraph {
     font-size: 1.2rem;
     color: #555;
   }
+
+
   
   
