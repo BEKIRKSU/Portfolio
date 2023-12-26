@@ -8,7 +8,7 @@ const ContactMe: React.FC = () => {
     <div className="contact-container">
       <h2 className="contact-heading">Contact Me</h2>
       <p className="contact-paragraph">
-        Feel free to reach out to me on LinkedIn.
+      Keep an eye out for the grand reveal! Meanwhile, connect with me on social media to be part of the conversation. 
       </p>
       <LinkedIn url="https://www.linkedin.com/" />
     </div>
