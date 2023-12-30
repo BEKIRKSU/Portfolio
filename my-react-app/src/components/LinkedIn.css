@@ -3,3 +3,11 @@
     height: auto;
     margin-top: 20px;
   }
+  
+  @media screen and (max-width: 600px) {
+    .linkedin-image {
+      width: 50px;
+      margin-top: 15px;
+    }
+  }
+  

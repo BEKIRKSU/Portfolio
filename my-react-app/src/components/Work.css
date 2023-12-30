@@ -1,26 +1,41 @@
-
 .work-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
   }
   
-
   .work-heading {
     font-size: 2rem;
     color: #333;
   }
   
-
   .work-paragraph {
     font-size: 1.2rem;
     color: #555;
   }
   
-
   .github-image {
     width: 100px; 
     height: auto;
     margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .work-container {
+      padding: 10px;
+    }
+  
+    .work-heading {
+      font-size: 1.5rem;
+    }
+  
+    .work-paragraph {
+      font-size: 1rem;
+    }
+  
+    .github-image {
+      width: 80px;
+      margin-top: 15px;
+    }
   }
   

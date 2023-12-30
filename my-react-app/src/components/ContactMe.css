@@ -43,3 +43,26 @@
     background-color: #45a049;
   }
   
+  @media screen and (max-width: 600px) {
+    .contact-container {
+      padding: 10px;
+    }
+  
+    .contact-heading {
+      font-size: 1.5rem;
+    }
+  
+    .contact-paragraph {
+      font-size: 1rem;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      padding: 6px;
+    }
+  
+    .contact-form button {
+      padding: 8px 12px;
+    }
+  }
+  
