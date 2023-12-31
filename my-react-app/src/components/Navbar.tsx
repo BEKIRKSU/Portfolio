@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/styles.css';
-// import BK-Logo from '../Images/BK-Logo'
+import '../styles/styles.css'; 
+import BK from '../Images/BK-PortfolioLogo.png';
 
 const Navbar: React.FC = () => {
   return (
@@ -11,16 +11,16 @@ const Navbar: React.FC = () => {
           <Link to="/">
             <img
               className="BK-image"
-              // src={BK-Logo}
+              src={BK}
               alt="Bekir Kuscu Portfolio Website"
             />
           </Link>
         </li>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/" title="Bekir Kuscu Portfolio Website Home Page">Home</Link></li>
         {/* <li><Link to="/work">Work</Link></li> */}
-        <li><Link to="/resume">Resume(CV)</Link></li>
-        <li><Link to="/about">About Me</Link></li>
-        <li><Link to="/contact">Contact Me</Link></li>
+        <li><Link to="/resume" title="Bekir Kuscu Resume/CV">Resume(CV)</Link></li>
+        <li><Link to="/about" title="About Bekir Kuscu">About</Link></li>
+        <li><Link to="/contact" title="Contact Bekir Kuscu Via Email Form">Contact</Link></li>
       </ul>
     </nav>
   );

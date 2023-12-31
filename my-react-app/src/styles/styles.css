@@ -1,5 +1,5 @@
 nav {
-  background-color: #333;
+  background-color: #001c2e;
   padding: 20px;
 }
 
@@ -31,12 +31,17 @@ a {
 }
 
 a:hover {
-  color: #ffcc00;
+  color: #83B6F0;
 }
 
 @media screen and (max-width: 600px) {
   nav {
     padding: 10px;
+  }
+
+  nav ul li a {
+    border: red 3px solid;
+    font-size: 15px;
   }
 
   a {

@@ -32,7 +32,7 @@
   }
   
   .contact-form button {
-    background-color: #4caf50;
+    background-color: #001c2e;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -40,7 +40,9 @@
   }
   
   .contact-form button:hover {
-    background-color: #45a049;
+    background-color: #83B6F0;
+    color: black;
+    font-weight: bold 14px;
   }
   
   @media screen and (max-width: 600px) {
