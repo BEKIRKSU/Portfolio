@@ -29,7 +29,6 @@ const Resume: React.FC = () => {
         Innovative AI-Powered Waste Management Solution. Led by a Project Manager from Wells Fargo and a technical lead from Capgemini, facilitated agile project management encompassing project board oversight, issue resolution, ticket management, and daily stand-ups.
       </p>
 
-
       <h4>Booking/Management System | GitHub Repo: <a href="https://github.com/BEKIRKSU/animal_farm">https://github.com/BEKIRKSU/animal_farm</a></h4>
       <p>
         Effectively Coordinating Reservations and Data Management. Designed and implemented a comprehensive Booking/Management System to streamline operations for managers and enhance user/volunteer experience.
