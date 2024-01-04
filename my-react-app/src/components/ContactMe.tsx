@@ -6,9 +6,9 @@ const ContactMe: React.FC = () => {
   return (
     <div className="contact-container">
       <h2 className="contact-heading">Contact Me</h2>
-      <p className="contact-paragraph">
-        Keep an eye out for the grand reveal! Meanwhile, connect with me on social media to be part of the conversation.
-      </p>
+      <h3 className="contact-paragraph">
+      Exploring connections and building networks can open doors to endless possibilities. 
+      </h3>
       <form action="https://api.web3forms.com/submit" method="post" className="contact-form">
       <input type="hidden" name="access_key" value="e90e01aa-d270-440f-886c-c1b192d16d0e"/>
         <label htmlFor="name">Name:</label>
