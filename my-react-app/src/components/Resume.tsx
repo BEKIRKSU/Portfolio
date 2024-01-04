@@ -1,6 +1,7 @@
 import React from 'react';
 import './Resume.css';
 import DownloadCv from './DownloadCV';
+import LinkedIn from './LinkedIn';
 
 const Resume: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Resume: React.FC = () => {
     Feel free to download my full resume/CV for a comprehensive overview.
         </p>
       <DownloadCv />
+      <LinkedIn url="https://www.linkedin.com/in/bekir-kuscu" />
     </div>
   );
 };

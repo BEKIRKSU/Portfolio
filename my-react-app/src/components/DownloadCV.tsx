@@ -1,5 +1,4 @@
 import React from 'react';
-import LinkedIn from './LinkedIn';
 
 const DownloadCv: React.FC = () => {
 
@@ -12,7 +11,6 @@ const DownloadCv: React.FC = () => {
 
     <div>
         <button onClick={cvDownload }>Download Resume/CV</button>
-        <LinkedIn url="https://www.linkedin.com/in/bekir-kuscu" />
     </div>
 
   );
