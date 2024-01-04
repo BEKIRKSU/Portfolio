@@ -19,6 +19,32 @@
     height: auto;
     margin-top: 20px;
   }
+
+  .cool-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cool-list-item {
+    font-size: 1.8rem;
+    color: #007bff; /* Blue color */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .cool-list-item:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+
+  .button-like-shape {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #001c2e;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 4px;
+  }
   
   @media screen and (max-width: 600px) {
     .work-container {

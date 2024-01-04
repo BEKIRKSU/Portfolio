@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Work from './components/Work';
+import Projects from './components/Projects';
 import Resume from './components/Resume';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/Projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<ContactMe />} />
