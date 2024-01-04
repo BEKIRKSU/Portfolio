@@ -27,13 +27,13 @@
   
   .cool-list-item {
     font-size: 1.8rem;
-    color: #007bff; /* Blue color */
+    color: #007bff; 
     cursor: pointer;
     transition: color 0.3s ease;
   }
   
   .cool-list-item:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3;
   }
 
   .button-like-shape {
