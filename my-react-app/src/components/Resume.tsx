@@ -5,10 +5,11 @@ import DownloadCv from './DownloadCV';
 const Resume: React.FC = () => {
   return (
     <div className="resume-container">
-      <h2 className="resume-heading">Bekir Kuscu Resume/CV</h2>
-      <p>To download Bekir's resume/cv please click on the link below or visit my LinkedIn profile. ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS
-      ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS
-      </p>
+       <h1 className='resumeHeading'>Bekir's Resume/CV</h1>
+        <p>
+    Welcome to Bekir Kuscu resume/cv page! Below, you'll find details about my skills, experiences, and education.
+    Feel free to download my full resume/CV for a comprehensive overview.
+        </p>
       <DownloadCv />
     </div>
   );
