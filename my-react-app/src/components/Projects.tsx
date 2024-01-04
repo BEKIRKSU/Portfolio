@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import LanguagesIcon from './LanguagesIcon';
+import GitHub from './GitHub';
 
 const Projects: React.FC = () => {
   const handleLinkClick = (link: string) => {
@@ -10,13 +11,14 @@ const Projects: React.FC = () => {
   return (
     <div className="work-container">
       <h1 className="work-heading">BEKIR KUSCU / Projects</h1>
+      <h2>2023 - 2024</h2>
       <ol className="cool-list">
         <li className="cool-list-item" onClick={() => handleLinkClick('https://www.mmcode.io/')}>
-          MM-Code / 2023 - 2024
+          MM-Code
         </li>
-        <p>
+        {/* <p>
           Powered by a diverse team of advisors and contributors, we tackled coding challenges with focus and repetition in an Agile environment.
-        </p>
+        </p> */}
         <LanguagesIcon>React.js (JavaScript)</LanguagesIcon>
         <LanguagesIcon>SQL</LanguagesIcon>
         <LanguagesIcon>HTML5</LanguagesIcon>
@@ -26,22 +28,22 @@ const Projects: React.FC = () => {
         <LanguagesIcon>Auth0</LanguagesIcon>
 
         <li className="cool-list-item" onClick={() => handleLinkClick('https://animalfarm-qqai.onrender.com/')}>
-          Booking & Management System / 2023
+          Booking & Management System 
         </li>
-        <p>
+        {/* <p>
           -
-        </p>
+        </p> */}
         <LanguagesIcon>React.js (JavaScript)</LanguagesIcon>
         <LanguagesIcon>SQL</LanguagesIcon>
         <LanguagesIcon>HTML5</LanguagesIcon>
         <LanguagesIcon>CSS3</LanguagesIcon>
 
       <li className="cool-list-item" onClick={() => handleLinkClick('https://github.com/Mr-DEM1R/1.618_AI')}>
-          Eco-Scan / 2023
+          Eco-Scan 
         </li>
-        <p>
+        {/* <p>
           -
-        </p>
+        </p> */}
         <LanguagesIcon>Python</LanguagesIcon>
         <LanguagesIcon>OpenCV</LanguagesIcon>
         <LanguagesIcon>YoloV8</LanguagesIcon>
@@ -50,21 +52,21 @@ const Projects: React.FC = () => {
         <LanguagesIcon>Streamlit</LanguagesIcon>
 
         <li className="cool-list-item" onClick={() => handleLinkClick('https://github.com/BEKIRKSU/CV.O')}>
-          CVO / 2023
+          CVO 
         </li>
-        <p>
+        {/* <p>
           -
-        </p>
+        </p> */}
         <LanguagesIcon>React.js</LanguagesIcon>
         <LanguagesIcon>HTML5</LanguagesIcon>
         <LanguagesIcon>CSS3</LanguagesIcon>
 
       <li className="cool-list-item" onClick={() => handleLinkClick('https://github.com/BEKIRKSU/snake_game')}>
-          Classic Snake Game / 2023
+          Classic Snake Game 
         </li>
-        <p>
+        {/* <p>
           -
-        </p>
+        </p> */}
         <LanguagesIcon>Python</LanguagesIcon>
       </ol>
 
@@ -84,17 +86,7 @@ const Projects: React.FC = () => {
       </p>  */}
 
       <h3>Explore my GitHub below for a closer look at my projects and contributions.</h3>
-      <a
-        href="https://www.github.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          className="github-image"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
-          alt="GitHub"
-        />
-      </a>
+      <GitHub url="https://github.com/bekirksu" />
     </div>
   );
 };
