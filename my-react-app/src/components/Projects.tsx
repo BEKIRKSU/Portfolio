@@ -9,6 +9,8 @@ const Projects: React.FC = () => {
   };
 
   return (
+    <div>
+    <div className="full-stack-text">FULL STACK DEVELOPER</div>
     <div className="work-container">
       <h1 className="work-heading">BEKIR KUSCU / Projects</h1>
       <h2>2023 - 2024</h2>
@@ -87,6 +89,7 @@ const Projects: React.FC = () => {
 
       <h3>Explore my GitHub below for a closer look at my projects and contributions.</h3>
       <GitHub url="https://github.com/bekirksu" />
+      </div>
     </div>
   );
 };

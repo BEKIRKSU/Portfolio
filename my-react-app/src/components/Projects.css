@@ -41,6 +41,20 @@
     margin-top: 3rem;
     font-weight: 250;
   }
+
+  .full-stack-text {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #001c2e;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 999; /* Make sure it appears above other elements */
+  }
+  
   
   @media screen and (max-width: 600px) {
     .work-container {
