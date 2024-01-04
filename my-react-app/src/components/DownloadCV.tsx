@@ -4,9 +4,8 @@ import LinkedIn from './LinkedIn';
 const DownloadCv: React.FC = () => {
 
   const cvDownload = () => {
-    const resumePath = process.env.PUBLIC_URL + '../Assets/Bekir-Kuscu-Resume-CV.pdf'; 
+    const resumePath = '../Assets/Bekir-Kuscu-Resume-CV.pdf'; 
     window.open(resumePath, '_blank');
-
   };
 
   return (

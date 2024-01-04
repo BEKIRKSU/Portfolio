@@ -9,6 +9,7 @@ const Resume: React.FC = () => {
       <p>To download Bekir's resume/cv please click on the link below or visit my LinkedIn profile. ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS
       ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS ADD MORE WORDS HERE AT LEAST 100 WORDSS
       </p>
+      <DownloadCv />
     </div>
   );
 };
