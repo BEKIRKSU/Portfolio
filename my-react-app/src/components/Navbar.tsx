@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/styles.css'; 
-import BK from '../Images/BK-PortfolioLogo.png';
 
 const Navbar: React.FC = () => {
   return (
@@ -11,7 +10,7 @@ const Navbar: React.FC = () => {
           <Link to="/">
             <img
               className="BK-image"
-              src={BK}
+              src="Images/BK-PortfolioLogo.png"
               alt="Bekir Kuscu Portfolio Website"
             />
           </Link>
