@@ -11,11 +11,6 @@ const DownloadCv: React.FC = () => {
   return (
 
     <div>
-        <h1>Bekir's Resume/CV</h1>
-        <p>
-    Welcome to Bekir Kuscu resume/cv page! Below, you'll find details about my skills, experiences, and education.
-    Feel free to download my full resume/CV for a comprehensive overview.
-        </p>
         <button onClick={cvDownload }>Download Resume/CV</button>
         <LinkedIn url="https://www.linkedin.com/in/bekir-kuscu" />
     </div>
