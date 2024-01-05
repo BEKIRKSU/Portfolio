@@ -1,4 +1,3 @@
-// src/components/LinkedIn.tsx
 import React from 'react';
 import './LinkedIn.css';
 

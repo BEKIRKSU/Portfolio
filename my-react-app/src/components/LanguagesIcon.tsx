@@ -1,4 +1,3 @@
-// LanguagesIcon.tsx
 import React, { ReactNode } from 'react';
 import './LanguagesIcon.css';
 
