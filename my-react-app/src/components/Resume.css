@@ -1,30 +1,29 @@
 .resume-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.resume-heading {
+  font-size: 2rem;
+  color: #333;
+}
+
+.resume-paragraph {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .resume-container {
+    padding: 0.625rem;
   }
-  
+
   .resume-heading {
-    font-size: 2rem;
-    color: #333;
+    font-size: 1.5rem;
   }
-  
+
   .resume-paragraph {
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 1rem;
   }
-  
-  @media screen and (max-width: 600px) {
-    .resume-container {
-      padding: 10px;
-    }
-  
-    .resume-heading {
-      font-size: 1.5rem;
-    }
-  
-    .resume-paragraph {
-      font-size: 1rem;
-    }
-  }
-  
+}
