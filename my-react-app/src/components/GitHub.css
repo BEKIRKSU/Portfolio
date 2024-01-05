@@ -1,13 +1,13 @@
 .github-image {
-    width: 65px; 
-    height: auto;
-    margin-top: 10px;
-    padding-right: 20px;
+  width: 4.0625rem;
+  height: auto;
+  margin-top: 0.625rem;
+  padding-right: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .github-image {
+    width: 3.125rem;
+    margin-top: 0.9375rem;
   }
-  
-  @media screen and (max-width: 600px) {
-    .github-image {
-      width: 50px;
-      margin-top: 15px;
-    }
-  }
+}
