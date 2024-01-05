@@ -27,15 +27,17 @@
     font-weight: 500;
     color: #001c2e;
     cursor: pointer;
-    transition: color 0.3s ease;
-    text-align: right; 
+    transition: color 0.3s ease, transform 0.3s ease; /* Added transform transition */
+    text-align: right;
     margin-bottom: 10px;
     margin-top: 2rem;
   }
   
   .cool-list-item:hover {
     color: #0056b3;
+    transform: scale(1.05) translateY(-5px); /* Scale and lift up on hover */
   }
+  
   
   h3 {
     margin-top: 3rem;
