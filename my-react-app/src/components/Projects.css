@@ -8,12 +8,14 @@
 .work-heading {
   text-align: left;
   font-size: 2.5rem;
+  margin-bottom: 0.5rem; 
 }
 
 h2 {
   text-align: left;
   font-size: 1.7rem;
   font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 .cool-list {
