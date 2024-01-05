@@ -1,15 +1,14 @@
 .linkedin-image {
-    width: 65px; 
-    height: auto;
-    margin-top: 20px;
-    padding-right: 20px;
-    border-radius: 0.2rem;
+  width: 4.0625rem;
+  height: auto;
+  margin-top: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .linkedin-image {
+    width: 3.125rem;
+    margin-top: 0.9375rem;
   }
-  
-  @media screen and (max-width: 600px) {
-    .linkedin-image {
-      width: 50px;
-      margin-top: 15px;
-    }
-  }
-  
+}
