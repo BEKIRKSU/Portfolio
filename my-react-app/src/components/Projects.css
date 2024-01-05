@@ -50,7 +50,7 @@
     background-color: #001c2e;
     color: white;
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     z-index: 999; /* Make sure it appears above other elements */
   }
