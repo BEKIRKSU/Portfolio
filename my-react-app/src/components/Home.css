@@ -20,11 +20,11 @@
 
 @media screen and (max-width: 600px) {
   .home-container {
-    padding: 0.625rem;
+    padding: 0.6rem;
   }
 
   .home-heading {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
   }
 
   .home-paragraph {

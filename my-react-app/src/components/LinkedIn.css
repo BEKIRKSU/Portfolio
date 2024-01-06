@@ -1,5 +1,5 @@
 .linkedin-image {
-  width: 4.0625rem;
+  width: 4.1rem;
   height: auto;
   margin-top: 1.25rem;
   padding-right: 1.25rem;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 600px) {
   .linkedin-image {
-    width: 3.125rem;
-    margin-top: 0.9375rem;
+    width: 3rem;
+    margin-top: 1rem;
   }
 }

@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         </li>
         <li><Link to="/" title="Bekir Kuscu Portfolio Website Home Page">Home</Link></li>
         <li><Link to="/Projects">Projects</Link></li>
-        <li><Link to="/resume" title="Bekir Kuscu Resume/CV">Resume(CV)</Link></li>
+        {/* <li><Link to="/resume" title="Bekir Kuscu Resume/CV">Resume(CV)</Link></li> */}
         {/* <li><Link to="/about" title="About Bekir Kuscu">About</Link></li> */}
         <li><Link to="/contact" title="Contact Bekir Kuscu Via Email Form">Contact</Link></li>
       </ul>
