@@ -1,6 +1,7 @@
 nav {
   background-color: #001c2e;
   padding: 1.25rem;
+  z-index: 1;
 }
 
 ul {

@@ -1,10 +1,16 @@
 import React from 'react';
 import LinkedIn from './LinkedIn';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home: React.FC = () => {
   return (
     <div className="home-container">
+      <div className="lines">
+  <div className="line"></div>
+  <div className="line"></div>
+  <div className="line"></div>
+</div>
       <h1 className="home-heading">Welcome to Bekir Kuscu's portfolio.</h1>
       {/* <p className="home-paragraph"> Hello, I'm Bekir Kuscu, a passionate Graduate/Junior Software Engineer with over a year of hands-on experience in technologies such as React JS, C#, JavaScript, TypeScript, and SQL. Throughout my journey, I've honed my skills and cultivated a deep understanding of these tools, enabling me to take on complex challenges and contribute meaningfully to software development projects.</p>
       <p className="home-paragraph">Now, with a sense of excitement and anticipation, I'm thrilled to announce that something truly exciting is in the works! In the coming days, I'll be giving a glimpse into my world of coding, creativity, and innovation. This endeavor serves as a testament to my commitment to pushing the boundaries in software engineering.</p>
